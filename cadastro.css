@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body
+{
+    background-color: rgb(19, 7, 90);
+}
 
 .container {
     height: 100vh;
@@ -15,20 +19,49 @@
     top: auto;
     left: 40%;
 }
-#formulario {
+
+#formulario 
+{
     font-family: Arial;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;    
-    align-items: center;
 
-
-    height: 500px;
+    height: 800px;
     width: 600px;
 
-    background-color: rgb(68, 67, 67);
+    background: linear-gradient(to right, rgb(37, 11, 182), black);
     color: white;
+
+    border-radius: 20px;
+}
+
+
+.submit
+{
+    font-family: Arial;
+    background-color: transparent;
+    color: rgb(0,0,0);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: "Arial";
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-left: 44%;
+    margin-right: auto;
+    display: block;
+    border-radius: 12px;
+
+    color: white;
+
+    height: 50px;
+    width: 100px;
+}
+
+.submit:hover {
+    background-color: rgb(32, 7, 173);
+    color: black;
 }
 
 #formulario label {
@@ -41,45 +74,30 @@
     align-items: center;
     margin-left: 30px;
     margin-right: 70px;
-    height: 15px;
-    width: 350px;
     
 }
 
-.email
+.letras
 {
     color: black;
     position: absolute;
-    left: 43%;
-    color: white;
-}
-.senha
-{
-    color: black;
-    position: absolute;
-    left: 43%;
+    left: 47%;
     color: white;
 }
 
-.confirmar
+.letras-2
 {
-    color: black;
     position: absolute;
-    left: 37%;
-    color: white;
+    left: 42%;
 }
-.submit
+
+input
 {
-    font-family: Arial;
-    background-color: whitesmoke;
-    width: 200px;
-    height: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: rgb(90, 102, 168);
-  
+    position: absolute;
+    left: 20px;
+    height: 25px;
+    width: 340px;
+    border-radius: 10px;
 }
 
 .cadastro
@@ -88,6 +106,12 @@
     color: white;
 }
 
-
-
-
+.copy
+{
+    position: absolute;
+    top: 900px;
+   color: whitesmoke;
+}
+.copy:hover {
+    box-shadow: 0 0 40px rgb(3, 9, 92); /* Cria um efeito de brilho ao passar o cursor sobre o botão */
+}

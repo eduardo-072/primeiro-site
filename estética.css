@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body
+{
+    background-color: rgb(19, 7, 90);
+}
+
 .container {
     height: 100vh;
 
@@ -14,6 +19,8 @@
     top: auto;
     left: 40%;
 }
+
+
 #formulario {
     font-family: Arial;
     display: flex;
@@ -21,11 +28,14 @@
     align-items: center;
     justify-content: space-evenly;    
 
-    height: 500px;
+    height: 800px;
     width: 600px;
 
-    background-color: rgb(68, 67, 67);
+    background: linear-gradient(to right, rgb(37, 11, 182), black);
     color: white;
+
+    border-radius: 20px;
+       
 }
 
 #formulario label {
@@ -39,18 +49,40 @@
     
 }
 
-.submit
+input
+{
+    height: 25px;
+    width: 340px;
+    border-radius: 12px;
+}
+label
+{
+    position: absolute;
+    left: 40%;
+}
+
+.botão
 {
     font-family: Arial;
-    background-color: whitesmoke;
+    background-color: transparent;
     width: 200px;
     height: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: rgb(90, 102, 168);
-  
+    border: 2px solid black;
+    border-radius: 12px;
+
+    color: white;
+
+    height: 50px;
+    width: 100px;
+}
+
+.botão:hover {
+    background-color: rgb(32, 7, 173);
+    color: black;
 }
 
 .cadastro
@@ -59,6 +91,12 @@
     color: white;
 }
 
+.copy
+{
+    position: absolute;
+    top: 900px;
+   color: whitesmoke;
+}
 
 
 
